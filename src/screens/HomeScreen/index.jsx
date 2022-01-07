@@ -1,12 +1,18 @@
 //import libraries
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, SafeAreaView } from 'react-native';
+
+// personal importations
+import HomeMap from '../../components/HomeMap';
 
 // create a component
 const HomeScreen = (props) => {
     return (
         <View>
-            <Text>MyComponent</Text>
+            <HomeMap />
+
+            {/* Covid Message */}
+            {/* Bottom Component*/}
         </View>
     );
 };
